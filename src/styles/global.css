@@ -8,6 +8,11 @@
   --color-brown: #302b27;
 }
 
+:root {
+  --beige: #f4e9d4;
+  --brown: #302b27;
+}
+
 @font-face {
   font-family: Libron;
   font-style: normal;
