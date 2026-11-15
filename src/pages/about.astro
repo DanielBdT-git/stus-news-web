@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import MemberCard from "../components/MemberCard.astro";
+---
+
+<BaseLayout title="About Us - Stu's News" header="About Us">
+  <div class="flex flex-col gap-12">
+    The layout is very much subject to change right now...
+    <MemberCard name="Nicholas Kadyk" role="President, Writer" image="nick.webp"/>
+    <MemberCard name="Emma Colley" role="Artist?" image="emma.webp"/>
+    <MemberCard name="Connor Anderson" role="Writer" image="connor.webp"/>
+    <MemberCard name="Ethan?" role="Editor" image="ethan.webp"/>
+    <MemberCard name="Brody Deveax" role="Editor"/>
+    <a href="https://github.com/danielbdt-git" target="_blank" class="hover:bg-sky-500/5">
+      <MemberCard name="Daniel Breuls de Tiecken" role="Website Developer" image="FINAL_DARK.png"/>
+    </a>
+  </div>
+</BaseLayout>

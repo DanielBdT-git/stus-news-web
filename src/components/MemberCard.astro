@@ -1,0 +1,22 @@
+---
+const {name, role, image} = Astro.props;
+---
+
+<article class="flex flex-row items-center gap-4 text-brown">
+  <img
+    src={`/members/${image || "unknown.webp"}`}
+    alt={name}
+    class="custom-shadow aspect-square object-cover h-40"
+  />
+  <div class="flex flex-col items-start">
+    <span class="text-2xl font-bold">{name}</span>
+    <span class="text-lg">{role}</span>
+  </div>
+</article>
+
+<style>
+  .custom-shadow {
+    box-shadow: 4px 4px var(--brown);
+    border: 2px solid var(--brown)
+  }
+</style>
