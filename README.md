@@ -16,3 +16,12 @@ I'm also planning to use [Pages CMS](https://pagescms.org/) to make adding conte
 |`npm run dev`|Start the live dev server|
 |`npm run build`|Build the project into the `dist` folder|
 |`npm run preview`|Preview what's in the `dist` folder|
+
+## Tasks
+|📋Item|Status|
+|----|------|
+|Initial Setup|🟢done|
+|Basic Functionality|🟡working|
+|Accessibility|🔴to do|
+|Pages CMS|🔴to do|
+|Mailing List|🔴to do|
