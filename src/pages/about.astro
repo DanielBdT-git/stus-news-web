@@ -18,19 +18,65 @@ import Separator from "../components/Separator.astro";
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
   <Separator title="Meet the Team"/>
-  <div class="flex flex-row flex-wrap gap-12">
-    <MemberCard name="Nicholas Kadyk" role="President, Writer" image="nick.webp" icon="crown"/>
-    <MemberCard name="Wyatt" role="Artist" image="IMG-20261114-WA0010.webp" icon="paint-brush"/>
-    <MemberCard name="Emma Colley" role="Artist?" image="emma.webp" icon="paint-brush"/>
-    <MemberCard name="Sebastian" role="idk what sebastian does" image="sebastian.webp"/>
-    <MemberCard name="Connor Anderson" role="Writer" image="connor.webp" icon="pen-nib"/>
-    <MemberCard name="Ethan?" role="Editor" image="ethan.webp" icon="pencil"/>
-    <MemberCard name="Arthur" role="Writer" image="IMG-20261114-WA0009.webp" icon="pen-nib"/>
-    <MemberCard name="idk who this is" role="probaby writer" image="IMG-20261114-WA0007.webp"/>
-    <MemberCard name="Brody Deveax" role="Games" icon="puzzle-piece"/>
+  <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
+    <MemberCard
+      name="Nicholas Kadyk"
+      role="President, Writer"
+      image="nick.webp"
+      icon="crown"
+    />
+    <MemberCard
+      name="Wyatt"
+      role="Artist"
+      image="IMG-20261114-WA0010.webp"
+      icon="paint-brush"
+    />
+    <MemberCard
+      name="Emma Colley"
+      role="Artist?"
+      image="emma.webp"
+      icon="paint-brush"
+    />
+    <MemberCard
+      name="Sebastian"
+      role="idk what sebastian does"
+      image="sebastian.webp"
+    />
+    <MemberCard
+      name="Connor Anderson"
+      role="Writer"
+      image="connor.webp"
+      icon="pen-nib"
+    />
+    <MemberCard
+      name="Ethan?"
+      role="Editor"
+      image="ethan.webp"
+      icon="pencil"
+    />
+    <MemberCard
+      name="Arthur"
+      role="Writer"
+      image="IMG-20261114-WA0009.webp"
+      icon="pen-nib"
+    />
+    <MemberCard
+      name="idk who this is"
+      role="probaby writer"
+      image="IMG-20261114-WA0007.webp"
+    />
+    <MemberCard
+      name="Brody Deveax"
+      role="Games"
+      icon="puzzle-piece"
+    />
     <!-- mine is special :D -->
     <a href="https://github.com/danielbdt-git" target="_blank" class="hover:bg-brown/75 hover:*:text-beige">
-      <MemberCard name="Daniel Breuls de Tiecken" role="Website Developer" icon="code"/>
+      <MemberCard
+        name="Daniel Breuls de Tiecken"
+        role="Website Developer"
+        icon="code"
+      />
     </a>
   </div>
 </BaseLayout>

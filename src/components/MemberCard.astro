@@ -2,7 +2,7 @@
 const {name, role, image, icon} = Astro.props;
 ---
 
-<article class="flex flex-row items-center gap-6 p-4 text-brown custom-shadow w-[40vw]">
+<article class="flex flex-row items-center gap-6 p-4 text-brown custom-shadow">
   <img
     src={`/members/${image || "unknown.webp"}`}
     alt={name}
