@@ -1,43 +1,18 @@
-# Astro Starter Kit: Minimal
+# 📰 Stus-News-Web
+Welcome to the GitHub repository for the Stu's News website! :D</br>
+If you don't know what's going on here, this place hosts the source code that runs the website.
+If you do, I'll try to make this README as useful as possible :)
 
-```sh
-npm create astro@latest -- --template minimal
-```
+## Contributing
+If you have any ideas, find any errors, or would like to improve on something, feel free to [submit an issue](https://github.com/DanielBdT-git/stus-news-web/issues/new) or [fork this repo](https://github.com/DanielBdT-git/stus-news-web/fork) and make a pull request. I'll do my best to keep in touch and maybe I'll merge your stuff :)</br>
+###### please don't use AI though
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Development
+The website is built with the [Astro framework](https://astro.build). You can read their docs [here](https://docs.astro.build).</br>
+I'm also planning to use [Pages CMS](https://pagescms.org/) to make adding content super easy :)
+|🧑‍💻 Command|Fuction|
+|-------|-------|
+|`npm install`|Install all dependencies|
+|`npm run dev`|Start the live dev server|
+|`npm run build`|Build the project into the `dist` folder|
+|`npm run preview`|Preview what's in the `dist` folder|
