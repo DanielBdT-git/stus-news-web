@@ -4,7 +4,7 @@ If you don't know what's going on here, this place hosts the source code that ru
 If you do, I'll try to make this README as useful as possible :)
 
 ## Contributing
-If you have any ideas, find any errors, or would like to improve on something, feel free to [submit an issue](https://github.com/DanielBdT-git/stus-news-web/issues/new) or [fork this repo](https://github.com/DanielBdT-git/stus-news-web/fork) and make a pull request. I'll do my best to keep in touch and maybe I'll merge your stuff :)</br>
+If you have any ideas, find any errors, or would like to improve something, feel free to [submit an issue](https://github.com/DanielBdT-git/stus-news-web/issues/new) or [fork this repo](https://github.com/DanielBdT-git/stus-news-web/fork) and make a pull request. I'll do my best to keep in touch and maybe I'll merge your stuff :)</br>
 ###### please don't use AI though
 
 ## Development
