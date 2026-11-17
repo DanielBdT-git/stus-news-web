@@ -18,4 +18,19 @@ const {frontmatter} = Astro.props; // for some reason, `frontmatter` MUST be in 
   <Prose>
     <slot />
   </Prose>
+  <h2>Sources & Credits</h2>
+  <p>Image credit: {frontmatter.credits.image}</p>
+
+  <!-- only render the ul if there are sources -->
+  {frontmatter.credits.sources &&
+    <ul>
+      {frontmatter.credits.sources.map((source:URL) => (
+        <li>
+          <a href={source} class="text-sky-600 underline decoration-1 hover:decoration-2">
+            {source.toString()}
+          </a>
+        </li>
+      ))}
+    </ul>
+  }
 </BaseLayout>
