@@ -8,6 +8,12 @@
   --color-brown: #302b27;
 }
 
+/* custom goofy shadow to be reused everywhere */
+.custom-shadow {
+  box-shadow: 4px 4px var(--brown);
+  border: 2px solid var(--brown)
+}
+
 :root {
   --beige: #f4e9d4;
   --brown: #302b27;
