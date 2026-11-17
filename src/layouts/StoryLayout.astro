@@ -9,28 +9,39 @@ const {frontmatter} = Astro.props; // for some reason, `frontmatter` MUST be in 
 ---
 
 <BaseLayout header={frontmatter.title}>
-  <img
-    src={frontmatter.image.url}
-    alt={frontmatter.image.alt}
-  />
-  <h1>{frontmatter.title}</h1>
-  <p>Written by {frontmatter.author} - {frontmatter.date}</p>
-  <Prose>
-    <slot />
-  </Prose>
-  <h2>Sources & Credits</h2>
-  <p>Image credit: {frontmatter.credits.image}</p>
+  <div class="flex flex-col gap-4">
+    <img
+      class="custom-shadow aspect-[16/9] object-cover"
+      src={frontmatter.image.url}
+      alt={frontmatter.image.alt}
+    />
 
-  <!-- only render the ul if there are sources -->
-  {frontmatter.credits.sources &&
-    <ul>
-      {frontmatter.credits.sources.map((source:URL) => (
-        <li>
-          <a href={source} class="text-sky-600 underline decoration-1 hover:decoration-2">
-            {source.toString()}
-          </a>
-        </li>
-      ))}
-    </ul>
-  }
+    <p class="text-brown/80">
+      Written by {frontmatter.author} • {frontmatter.date}
+    </p>
+
+    <Prose>
+      <slot />
+    </Prose>
+
+    <hr class="w-50 text-brown/80"/>
+
+    <div class="flex flex-col gap-1 text-brown/80">
+      <p>Image credit: {frontmatter.credits.image}</p>
+      
+      <!-- only render the ul if there are sources -->
+      {frontmatter.credits.sources &&
+        <span>Sources:</span>
+        <ul class="pl-8">
+          {frontmatter.credits.sources.map((source:URL) => (
+            <li class="list-disc">
+              <a href={source} class="text-sky-600 underline decoration-1 hover:decoration-2">
+                {source.toString()}
+              </a>
+            </li>
+          ))}
+        </ul>
+      }
+    </div>
+  </div>
 </BaseLayout>
