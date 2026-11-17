@@ -1,0 +1,21 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import Prose from "../components/Prose.astro"; // the Prose component handles tailwind styling for markdown
+const {frontmatter} = Astro.props; // for some reason, `frontmatter` MUST be in curly brackets
+
+// NOTE
+// maybe do something to convert the `date` prop to a more human-readable format or to long form
+// also this layout as it is now is VERY bare-bones and is only for testing purposes
+---
+
+<BaseLayout header={frontmatter.title}>
+  <img
+    src={frontmatter.image.url}
+    alt={frontmatter.image.alt}
+  />
+  <h1>{frontmatter.title}</h1>
+  <p>Written by {frontmatter.author} - {frontmatter.date}</p>
+  <Prose>
+    <slot />
+  </Prose>
+</BaseLayout>
