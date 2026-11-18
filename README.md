@@ -59,6 +59,9 @@ Here's a list of essential commands for development. Make sure you have nodejs a
 |`npm run build`|Build the project into the `dist` folder|
 |`npm run preview`|Preview what's in the `dist` folder|
 
+## Deployment
+I'll be using Vercel to deploy the website and I'll probably buy a domain from [Web Hosting Canada](https://whc.ca/en). While the site is still in development, it'll be deployed as https://stus-news-web.vercel.app, which will also be used as a fallback in case I encounter any issues with the custom .ca domain.
+
 ## Tasks
 |📋Item|Status|
 |----|------|
