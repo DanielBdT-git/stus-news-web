@@ -1,4 +1,6 @@
 ---
+import memberArray from "../members.json";
+
 import BaseLayout from "../layouts/BaseLayout.astro";
 import MemberCard from "../components/MemberCard.astro";
 import Separator from "../components/Separator.astro";
@@ -19,62 +21,14 @@ import Separator from "../components/Separator.astro";
   </p>
   <Separator title="Meet the Team"/>
   <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
-    <MemberCard
-    name="Nicholas Kadyk"
-    role="President, Writer"
-    image="nick.webp"
-    icon="crown"
-    />
-    <MemberCard
-      name="Ethan Bartie"
-      role="VP, Printing, Editor"
-      image="ethan.webp"
-      icon="printer"
-    />
-    <MemberCard
-      name="Arthur Peirson"
-      role="Layout Designer"
-      image="IMG-20261114-WA0009.webp"
-      icon="paint-brush"
-    />
-    <MemberCard
-      name="Wyatt Bermudez"
-      role="Artist"
-      image="IMG-20261114-WA0010.webp"
-      icon="paint-brush"
-    />
-    <MemberCard
-      name="Emma Colley"
-      role="Artist"
-      image="emma.webp"
-      icon="paint-brush"
-    />
-    <MemberCard
-      name="Sebastian Contreras"
-      role="He's here for the vibes"
-      image="sebastian.webp"
-    />
-    <MemberCard
-      name="Connor Anderson"
-      role="Writer"
-      image="connor.webp"
-      icon="pen-nib"
-    />
-    <MemberCard
-      name="Siobhan"
-      role="I don't know tbh"
-      image="IMG-20261114-WA0007.webp"
-    />
-    <MemberCard
-      name="Eleanor Teigland"
-      role="writer"
-      icon="pen-nib"
-    />
-    <MemberCard
-      name="Brody Deveax"
-      role="Games"
-      icon="puzzle-piece"
-    />
+    {memberArray.map((member) => (
+      <MemberCard
+        name={member.name}
+        role={member.role}
+        image={member.image}
+        icon={member.icon}
+      />
+    ))}
     <!-- mine is special :D -->
     <a href="https://github.com/danielbdt-git" target="_blank" class="hover:bg-brown/75 hover:*:text-beige">
       <MemberCard

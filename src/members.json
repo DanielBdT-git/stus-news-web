@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Nick Kadyk",
+    "role": "President, Writer",
+    "image": "nick.webp",
+    "icon": "crown"
+  },
+  {
+    "name": "Ethan Bartie",
+    "role": "VP, Printing, Editor",
+    "image": "ethan.webp",
+    "icon": "printer"
+  },
+  {
+    "name": "Arthur Peirson",
+    "role": "Layout Deisgner",
+    "image": "arthur.webp",
+    "icon": "newspaper"
+  },
+  {
+    "name": "Wyatt Bermudez",
+    "role": "Artist",
+    "image": "wyatt.webp",
+    "icon": "paint-brush"
+  },
+  {
+    "name": "Emma Colley",
+    "role": "Artist",
+    "image": "emma.webp",
+    "icon": "paint-brush"
+  },
+  {
+    "name": "Sebastian Contreras",
+    "role": "He's here for the vibes",
+    "image": "sebastian.webp",
+    "icon": "smiley"
+  },
+  {
+    "name": "Connor Anderson",
+    "role": "Writer",
+    "image": "connor.webp",
+    "icon": "pen-nib"
+  },
+  {
+    "name": "Siobhan",
+    "role": "I don't know yet",
+    "image": "siobhan.webp"
+  },
+  {
+    "name": "Eleanor Teigland",
+    "role": "Writer",
+    "icon": "pen-nib"
+  },
+  {
+    "name": "Brody Deveaux",
+    "role": "Games",
+    "icon": "puzzle-piece"
+  }
+]
