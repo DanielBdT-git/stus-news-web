@@ -8,29 +8,29 @@ If you have any ideas, find any errors, or would like to improve something, feel
 ###### please don't use AI though
 
 ## Uploading Stories
-There are two ways to upload a Markdown story until I get the CMS is up and running.<br>
+Until I get the CMS up and running, contributors can simply upload a markdown file in `/src/pages/stories`. If you want to do so and are not a contributor, you may [fork the repo](https://github.com/DanielBdT-git/stus-news-web/fork) and submit a pull request.
 
-You need to be a contributor to use these. If you aren't, you can [fork the repo](https://github.com/DanielBdT-git/stus-news-web/fork) and submit a pull request.
+Here's how to upload stories manually:
+1. either come right back to this GitHub repo or clone it in your terminal and `cd` into it
+2. make sure you're in the "**uploads**" branch
+    - if you're using your browser, it's in the top-left somewhere
+    - if you're using your terminal, use `git checkout uploads`
+3. head to `/public/story_images` and place your image there if you want to upload one. The WebP image format is strongly encouraged as it tends to load faster. You may also use an image from the internet; that will come back in step 5.
+    - if you're using your browser, click "Add file" and choose "Upload files"
+4. head to `/src/pages/stories` and make a new file named `[week_number]-[story_number]-[title].md`, which would look something like: `3-2-story-title.md`. Make sure you keep everything lowercase and use hyphens instead of spaces. Note that this naming scheme is temporary and I will get rid of week/story numbers in the near future. This just makes it easier for me while the site is in development
+    - if you're using your browser, click "Add file" in the `stories` folder
+    - if you're using your terminal, just make the file at that directory
+5. paste the [template](#markdown-template) into the file and fill in every data field *except `layout`*.
+    - `image.url` can take either a web link (obtained through "copy image link") **or** a filepath relative to `/public`. For example, an image at `/public/story_images/image.webp` is expressed as `url: /story_images/image.webp`.
+    - you may omit `credits.sources` if you did not use any. In that case, delete that entire line.
+6. commit (and push if using your terminal) your changes to the "uploads" branch.
+> [!important]
+> Remember to `git pull` before doing anything if you're using your terminal
 
-1. GitHub website
-    - go to the [GitHub Repo](https://github.com/danielbdt-git/stus-news-web/tree/uploads)
-    - make sure you're in the "**uploads**" branch
-    - navigate to `/src/pages/stories`
-    - click "Add File"
-    - name your file in the pattern `[WEEK]-[NUMBER]-[TITLE].md`, which looks something like `3-1-story-title.md`. All lowercase and hyphens instead of spaces.
-    - paste the template below and fill in all the data *except "layout"*
-        - `image.url` can take either a web link (which you obtain through "copy image link") **or** a file path relative from `/public`. For example, an image at `/public/uploads/image.webp` would have a url of `/uploads/image.webp`.
-        - always fully remove any properties you're leaving blank
-    - commit your changes to "uploads"
-2. Locally on your machine
-    - in your terminal, [clone the repo](https://github.com/danielbdt-git/stus-news-web) and cd into it
-    - checkout into the "**uploads**" branch: `git checkout uploads`
-    - follow the same schema as in method 1
-    - commit and push your changes to "uploads"
->[!important]
-Remember to `git pull` before doing anything if you're using your terminal
+### What happens next
+Once all that is done, I will review and (hopefully) merge your story into the "main" branch to publish it 😄
 
-### Markdown Sample
+### Markdown Template
 ```md
 ---
 layout: "/src/layouts/StoryLayout.astro"
