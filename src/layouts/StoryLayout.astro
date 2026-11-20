@@ -9,7 +9,7 @@ const {frontmatter} = Astro.props; // for some reason, `frontmatter` MUST be in 
 ---
 
 <BaseLayout title={`${frontmatter.title} | Stu's News`} header={frontmatter.title}>
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col gap-8 max-w-200">
     <img
       class="custom-shadow aspect-[16/9] object-cover max-w-200"
       src={frontmatter.image.url}
