@@ -4,6 +4,7 @@
   - refine general layout
   - link to other articles from that issue at the bottom
   - all others with the same `date` property
+  - fix date to make it actually readable
 - upload images and import them in frontmatter - use `/images/` as it pulls from `/public`
 - `index.astro` layout
   - only show those from the most current issue on homepage
