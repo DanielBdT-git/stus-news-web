@@ -5,8 +5,8 @@ author: "Nick"
 date: 2026-11-16
 issue: 2
 image:
-  url: "/story_images/2-1-Remberance-Day.png"
-  alt: "A photo of a bagpipes marching band marching forwards for the rememberance day parade "
+  url: "/story_images/2-1-Rembrance-Day.webp"
+  alt: "A photo of a bagpipes marching band marching forwards for the remembrance day parade "
 credits: 
   image: "William Vavrek Photography"
   sources: ["https://www.legion.ca/news/2025/10/31/royal-canadian-legion-2025-national-poppy-campaign-now-underway"]

@@ -5,7 +5,7 @@ author: "Eleanor Teigland"
 date: 2026-11-16
 issue: 2
 image:
-  url: "/story_images/2-3-Art-Gallery-Reopens-After-Months-of-Renovations.jpg"
+  url: "/story_images/2-3-Art-Gallery-Reopens-After-Months-of-Renovations.webp"
   alt: "A photo of a bunch of art supplies"
 credits: 
   image: "Laura Adai Photography"

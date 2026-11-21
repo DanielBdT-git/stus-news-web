@@ -4,8 +4,8 @@ title: "JPII Student Walkout"
 author: "Nick"
 date: 2026-11-02
 image:
-  url: "/story_images/1-1-JP2-Student-Walkout.png"
-  alt: "A photo of John Paul 2 Catholic Highschool"
+  url: "/story_images/1-1-JPII-Student-Walkout.webp"
+  alt: "A photo of John Paul II Catholic High School"
 credits:
   image: "William Vavrek, Stantec"
   sources: ["https://www.cbc.ca/news/canada/edmonton/grande-prairie-teacher-walk-out-residential-school-social-media-post-9.7389079","https://www.mygrandeprairienow.com/155367/news/community/group-of-grande-prairie-students-host-walkout-in-protest-to-alleged-comments-made-by-teacher/"]
