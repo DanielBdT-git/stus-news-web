@@ -1,0 +1,25 @@
+name: Fast-forward uploads after merge
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [master]
+
+jobs:
+  sync:
+    # only when the PR was actually merged (not just closed) and came from uploads
+    if: github.event.pull_request.merged == true && github.head_ref == 'uploads'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: uploads
+          fetch-depth: 0
+
+      - name: Fast-forward uploads to master
+        run: |
+          git fetch origin master
+          git merge --ff-only origin/master
+          git push origin uploads
