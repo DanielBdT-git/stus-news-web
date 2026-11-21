@@ -4,8 +4,8 @@ title: "NWP Provincial Races"
 author: "Nick"
 date: 2026-11-02
 image:
-  url: "/story_images/1-2-NWP-Provincial-Races.jpg"
-  alt: "A photo of a crowd of people"
+  url: "/story_images/1-2-NWP-Provincial-Races.webp"
+  alt: "A group photo of the athletes at the provincial cross-country event."
 credits:
   image: "Bella Gilje"
 ---

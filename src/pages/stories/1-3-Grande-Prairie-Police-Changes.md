@@ -4,8 +4,8 @@ title: "Grande Prairie Police Changes"
 author: "Jenaye Moffat"
 date: 2026-11-02
 image:
-  url: "/story_images1-3-Grande-Prairie-Police-Changes.png"
-  alt: "A photo of a police car"
+  url: "/story_images/1-3-Grande-Prairie-Police-Changes.webp"
+  alt: "A photo of a Grande Prairie Police Service car"
 credits:
   image: "RJA1988 on Pixabay"
   sources: ["https://www.culturealberta.com/articles/grande-prairie-replaces-rcmp-with-its-own-police-force-after-83-years-as-alberta-adds-2m-for-new-911"]
