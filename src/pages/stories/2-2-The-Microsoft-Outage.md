@@ -1,7 +1,7 @@
 ---
 layout: "/src/layouts/StoryLayout.astro"
 title: "The Microsoft Outage"
-author: "Arthur"
+author: "Arthur Peirson"
 date: 2026-11-16
 issue: 2
 image:

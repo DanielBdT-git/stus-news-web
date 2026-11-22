@@ -1,7 +1,7 @@
 ---
 layout: "/src/layouts/StoryLayout.astro"
 title: "Remembrance Day"
-author: "Nick"
+author: "Nicholas Kadyk"
 date: 2026-11-16
 issue: 2
 image:
