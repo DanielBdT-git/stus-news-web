@@ -1,7 +1,7 @@
 ---
 layout: "/src/layouts/StoryLayout.astro"
 title: "NWP Provincial Races"
-author: "Nick"
+author: "Nicholas Kadyk"
 date: 2026-11-02
 image:
   url: "/story_images/1-2-NWP-Provincial-Races.webp"

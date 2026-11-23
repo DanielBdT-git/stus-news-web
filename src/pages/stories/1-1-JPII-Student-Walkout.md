@@ -1,7 +1,7 @@
 ---
 layout: "/src/layouts/StoryLayout.astro"
 title: "JPII Student Walkout"
-author: "Nick"
+author: "Nicholas Kadyk"
 date: 2026-11-02
 image:
   url: "/story_images/1-1-JPII-Student-Walkout.webp"
