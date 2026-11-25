@@ -4,7 +4,7 @@ title: "Russian Missiles in Poland"
 author: "Nicholas Kadyk"
 date: 2026-11-23
 image:
-  url: "/story_images/3-3-Russion-Missiles-in-Poland.webp"
+  url: "/story_images/3-3-Russian-Missiles-in-Poland.webp"
   alt: "A photo of an urban area with a red circle outlining an explosion in the background"
 credits:
   image: "The Guardian"
